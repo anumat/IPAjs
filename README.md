@@ -14,7 +14,7 @@ After installing and configuring MathJax on your page, you may do something like
 
 ```
 <script type="text/x-mathjax-config">
-	MathJax.Ajax.config.path["ipa"] = "https://cdn.rawgit.com/anumat/IPAjs/79b43ba6/";
+	MathJax.Ajax.config.path["ipa"] = "https://cdn.rawgit.com/anumat/IPAjs/master/";
 	
 	MathJax.Hub.Config({
 		extensions: ["tex2jax.js", "[ipa]/ipa.js"],
